@@ -24,6 +24,7 @@ int BSearch(const int ar[], int len, int target) {
     return -1;
 }
 
+#ifdef BSEARCH
 int main() {
     int arr[] = {1, 2, 3, 4, 5, 6};
 
@@ -32,3 +33,4 @@ int main() {
     printf("index = %d\n", index);
     printf("value = %d", arr[index]);
 }
+#endif
